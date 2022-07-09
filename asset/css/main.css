@@ -1,0 +1,35 @@
+.photo{
+  
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* center  une image dans une div */
+.photo img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    border-radius: 15px ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
+    max-width: 90%;
+    box-shadow: 0 0 5px rgb(75, 75, 75);
+}
+
+.about{
+    height: 60vh;
+  margin-bottom: 20rem;
+}
+
+.fa-solid{
+ padding-right: 5px ;
+}
